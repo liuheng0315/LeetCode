@@ -1,7 +1,6 @@
 package leetcode;
 
 import java.util.HashMap;
-
 public class LeetCode01_TwoSum {
     public static void main(String[] args) {
         int[] arr = new int[]{3, 2, 4};
