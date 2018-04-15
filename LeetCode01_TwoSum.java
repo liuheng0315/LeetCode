@@ -2,14 +2,6 @@ package leetcode;
 
 import java.util.HashMap;
 public class LeetCode01_TwoSum {
-    public static void main(String[] args) {
-        int[] arr = new int[]{3, 2, 4};
-        int target = 6;
-        LeetCode01_TwoSum leettwoSum = new LeetCode01_TwoSum();
-        int[] ints = leettwoSum.twoSum(arr, target);
-        System.out.println(ints);
-    }
-
     //给目标数，在数组中查找两个数，返回数组的两个角标
     //这个方法时间复杂度太高
 //    public int[] twoSum(int[] nums, int target) {
